@@ -1,6 +1,5 @@
 // assignment number 3
 
-import'dart:io';
 
 void main() {
   // question number 1
