@@ -38,7 +38,7 @@ void main() {
 
   // Question number 3
   List<int> cont8 = [];
-  List<int> cont2 = <int>[6, 7, 1, 4, 3, 6, 5, 2, 7, 8, 8, 10];
+  List<int> cont2 = [6, 7, 1, 4, 3, 6, 5, 2, 7, 8, 8, 10];
   List<int> repeatedNumbers = [];
 
   for (var i = 0; i < cont2.length; i++) {
