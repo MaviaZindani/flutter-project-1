@@ -47,19 +47,19 @@ void main() {
 // }
 
 // question number 5
-  var loop = 0;
-  List<int> number = [];
+  // var loop = 0;
+  // List<int> number = [];
 
-  for (var i = 1; i <= 6; i++) {
-    loop = i;
-    String mavia = number.join();
-    print(mavia);
-    number = [];
+  // for (var i = 1; i <= 6; i++) {
+  //   loop = i;
+  //   String mavia = number.join();
+  //   print(mavia);
+  //   number = [];
 
-    for (var i = 0; i < loop; i++) {
-      number.add(loop);
-    }
-  }
+  //   for (var i = 0; i < loop; i++) {
+  //     number.add(loop);
+  //   }
+  // }
 
 // question number 6
 // List array = [1, 2, 3, 9, 6, 3, 4, 5, 6];
@@ -92,34 +92,3 @@ void main() {
 // var len = chack.length;
 // print("There are $len vowels in this name");
 }
-
-
-
-// void main() {
-//   fibonacciSequence(100); // Change 100 to any number you want
-// }
-
-// void fibonacciSequence(int n) {
-//   List<int> fibonacci = [
-//     0,
-//     1
-//   ]; // Initialize the sequence with the first two numbers
-
-//   // Iterate from the third number up to n
-//   for (int i = 2;; i++) {
-//     // Calculate the next Fibonacci number by adding the last two numbers
-//     int nextNumber = fibonacci[i - 1] + fibonacci[i - 2];
-
-//     // Check if the next number exceeds n, if so, break the loop
-//     if (nextNumber > n) {
-//       break;
-//     }
-
-//     // Append the next Fibonacci number to the sequence
-//     fibonacci.add(nextNumber);
-//   }
-
-//   // Print the Fibonacci sequence
-//   print("Fibonacci sequence up to $n:");
-//   fibonacci.forEach((number) => print(number));
-// }
