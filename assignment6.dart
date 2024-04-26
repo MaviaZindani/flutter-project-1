@@ -187,7 +187,7 @@ void main() {
 
 // question number 14
   List intList1 = [1, 3, 4, 7, 3, 8, 09, 2, 35, 654, 4, 53, 32, 463];
-  List ascending =[intList1.w) )];
+  List ascending =[intList1 ];
 
 // question number 1
 // question number 1
