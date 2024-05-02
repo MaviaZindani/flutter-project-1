@@ -65,23 +65,26 @@ void main() {
   // print(factorial);
 
   // question number 7
-  // var primenumber = 5;
-  // List answer = [];
-  // var i = primenumber;
-  // var a = primenumber;
-  // do {
-  //   do {
-  //     var mavia = i * i;
-  //     if (mavia == primenumber) {
-  //       answer.add(primenumber);
-  //     }
-  //     i--;
-  //   } while (i > 0);
-  //   primenumber--;
-  //   a--;
-  // } while (a > 0);
+  // int count = 0;
+  // int number = 2;
 
-  // print(answer);
+  // while (count < 10) {
+  //   bool isPrime = true;
+
+  //   for (int i = 2; i <= number ~/ 2; i++) {
+  //     if (number % i == 0) {
+  //       isPrime = false;
+  //       break;
+  //     }
+  //   }
+
+  //   if (isPrime) {
+  //     print(number);
+  //     count++;
+  //   }
+
+  //   number++;
+  // }
 
   // question number 8
   // List naturalNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
